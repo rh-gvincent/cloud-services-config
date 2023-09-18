@@ -743,5 +743,19 @@
                 ]
             }
         ]
+    },
+    "assisted-installer-app": {
+        "manifestLocation": "/apps/assisted-installer-app/fed-mods.json",
+        "modules": [
+          {
+            "id": "assisted-installer-app",
+            "module": "./RootApp",
+            "routes": [
+              {
+                "pathname": "/openshift/assisted-installer-app"
+              }
+            ]
+          }
+        ]
     }
 }
